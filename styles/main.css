@@ -16,54 +16,33 @@ table {
     margin-right: auto;
 }
 
-.row1 button{
+button {
     font-family: "Orbitron", sans-serif;
     font-size: 20px;
     height: 8vw;
     width: 8vw;
     background-color: transparent;
-    color: rgba(0, 0, 0, 0);
-    text-shadow: -1px -1px 2px rgb(158, 0, 249);
     border: 3px solid #f0442c;
     box-shadow: 3px 3px #a12c1d;
     border-radius: 5px;
+}
+
+.row1 button {
+    color: rgba(0, 0, 0, 0);
+    text-shadow: -1px -1px 2px rgb(158, 0, 249);
 }
 
 .row2 button {
-    font-family: "Orbitron", sans-serif;
-    font-size: 20px;
-    height: 8vw;
-    width: 8vw;
-    background-color: transparent;
     color: rgba(0, 0, 0, 0);
     text-shadow: -1px -1px 2px rgb(0, 217, 255);
-    border: 3px solid #f0442c;
-    box-shadow: 3px 3px #a12c1d;
-    border-radius: 5px;
 }
 
 .row3 button {
-    font-family: "Orbitron", sans-serif;
-    font-size: 20px;
-    height: 8vw;
-    width: 8vw;
-    background-color: transparent;
     color: rgba(0, 0, 0, 0);
     text-shadow: -1px -1px 2px rgb(23, 231, 0);
-    border: 3px solid #f0442c;
-    box-shadow: 3px 3px #a12c1d;
-    border-radius: 5px;
 }
 
 .row4 button {
-    font-family: "Orbitron", sans-serif;
-    font-size: 20px;
-    height: 8vw;
-    width: 8vw;
-    background-color: transparent;
     color: rgba(0, 0, 0, 0);
     text-shadow: -1px -1px 2px rgb(255, 0, 0);
-    border: 3px solid #f0442c;
-    box-shadow: 3px 3px #a12c1d;
-    border-radius: 5px;
 }
