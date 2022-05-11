@@ -1,9 +1,6 @@
 boardBtnArr = document.getElementsByTagName("button");
 
-console.log(boardBtnArr)
-
 for(i=0;i<boardBtnArr.length;i++){
-    console.log(boardBtnArr[i]);
     boardBtnArr[i].addEventListener("click", playAudio);    
 }
 
@@ -15,6 +12,4 @@ function playAudio(){
         soundbite.play();
     }
     playSoundbite(`sounds/${thisButton.id}.wav`);
-    console.log(thisButton.id);
-
 }
