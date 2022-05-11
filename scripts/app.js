@@ -6,7 +6,7 @@ for(i=0;i<boardBtnArr.length;i++){
 
 function playAudio(){
     let thisButton = document.getElementById(`${this.id}`);
-    var soundbite = new Audio();
+    let soundbite = new Audio();
     function playSoundbite(file){
         soundbite = new Audio(file);
         soundbite.play();
