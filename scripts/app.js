@@ -1,4 +1,4 @@
-boardBtnArr = document.getElementsByTagName("button");
+let boardBtnArr = document.getElementsByTagName("button");
 
 for(i=0;i<boardBtnArr.length;i++){
     boardBtnArr[i].addEventListener("click", playAudio);    
